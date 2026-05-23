@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.db-journal
+db/*.db
+db/*.db-journal
+
+# Prisma
+prisma/migrations/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploads
+upload/
+
+# AI skills
+skills/
+
+# Debug scripts
+.zscripts/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.swo
+*~
