@@ -2,9 +2,9 @@
   "name": "kinrel-mirror",
   "version": "1.0.0",
   "private": true,
-  "description": "KINREL Mirror — Enterprise Architecture Sandbox | Deep Feature Mirror of DAXELO KINREL",
+  "description": "KINREL Mirror \u2014 Enterprise Architecture Sandbox | Deep Feature Mirror of DAXELO KINREL",
   "scripts": {
-    "dev": "next start -p 3000",
+    "dev": "bash serve-loop.sh",
     "build": "next build",
     "lint": "next lint",
     "db:push": "DATABASE_URL=\"file:./db/custom.db\" prisma db push",
